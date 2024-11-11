@@ -3,32 +3,36 @@
   "WorkspaceRootPath": "C:\\Users\\User\\source\\repos\\Math3\\SFMLPractice\\ITIMathmaticsForGD\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{C6788A42-EB7B-4313-B0DB-560043E60B33}|SFMLPractice\\SFMLPractice.vcxproj|C:\\Users\\User\\source\\repos\\Math3\\SFMLPractice\\ITIMathmaticsForGD\\SFMLPractice\\Elastic.h||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
-      "RelativeMoniker": "D:0:0:{C6788A42-EB7B-4313-B0DB-560043E60B33}|SFMLPractice\\SFMLPractice.vcxproj|solutionrelative:SFMLPractice\\Elastic.h||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{C6788A42-EB7B-4313-B0DB-560043E60B33}|SFMLPractice\\SFMLPractice.vcxproj|C:\\Users\\User\\source\\repos\\Math3\\SFMLPractice\\ITIMathmaticsForGD\\SFMLPractice\\Game.h||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
-      "RelativeMoniker": "D:0:0:{C6788A42-EB7B-4313-B0DB-560043E60B33}|SFMLPractice\\SFMLPractice.vcxproj|solutionrelative:SFMLPractice\\Game.h||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
+      "AbsoluteMoniker": "D:0:0:{C6788A42-EB7B-4313-B0DB-560043E60B33}|SFMLPractice\\SFMLPractice.vcxproj|C:\\Users\\User\\source\\repos\\Math3\\SFMLPractice\\ITIMathmaticsForGD\\SFMLPractice\\Trail.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
+      "RelativeMoniker": "D:0:0:{C6788A42-EB7B-4313-B0DB-560043E60B33}|SFMLPractice\\SFMLPractice.vcxproj|solutionrelative:SFMLPractice\\Trail.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{C6788A42-EB7B-4313-B0DB-560043E60B33}|SFMLPractice\\SFMLPractice.vcxproj|C:\\Users\\User\\source\\repos\\Math3\\SFMLPractice\\ITIMathmaticsForGD\\SFMLPractice\\Easing.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
       "RelativeMoniker": "D:0:0:{C6788A42-EB7B-4313-B0DB-560043E60B33}|SFMLPractice\\SFMLPractice.vcxproj|solutionrelative:SFMLPractice\\Easing.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
     },
     {
+      "AbsoluteMoniker": "D:0:0:{C6788A42-EB7B-4313-B0DB-560043E60B33}|SFMLPractice\\SFMLPractice.vcxproj|C:\\Users\\User\\source\\repos\\Math3\\SFMLPractice\\ITIMathmaticsForGD\\SFMLPractice\\ARC.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
+      "RelativeMoniker": "D:0:0:{C6788A42-EB7B-4313-B0DB-560043E60B33}|SFMLPractice\\SFMLPractice.vcxproj|solutionrelative:SFMLPractice\\ARC.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
+    },
+    {
       "AbsoluteMoniker": "D:0:0:{C6788A42-EB7B-4313-B0DB-560043E60B33}|SFMLPractice\\SFMLPractice.vcxproj|C:\\Users\\User\\source\\repos\\Math3\\SFMLPractice\\ITIMathmaticsForGD\\SFMLPractice\\Jumping.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
       "RelativeMoniker": "D:0:0:{C6788A42-EB7B-4313-B0DB-560043E60B33}|SFMLPractice\\SFMLPractice.vcxproj|solutionrelative:SFMLPractice\\Jumping.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{C6788A42-EB7B-4313-B0DB-560043E60B33}|SFMLPractice\\SFMLPractice.vcxproj|C:\\Users\\User\\source\\repos\\Math3\\SFMLPractice\\ITIMathmaticsForGD\\SFMLPractice\\Parallax.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
-      "RelativeMoniker": "D:0:0:{C6788A42-EB7B-4313-B0DB-560043E60B33}|SFMLPractice\\SFMLPractice.vcxproj|solutionrelative:SFMLPractice\\Parallax.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
+      "AbsoluteMoniker": "D:0:0:{C6788A42-EB7B-4313-B0DB-560043E60B33}|SFMLPractice\\SFMLPractice.vcxproj|C:\\Users\\User\\source\\repos\\Math3\\SFMLPractice\\ITIMathmaticsForGD\\SFMLPractice\\Elastic.h||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
+      "RelativeMoniker": "D:0:0:{C6788A42-EB7B-4313-B0DB-560043E60B33}|SFMLPractice\\SFMLPractice.vcxproj|solutionrelative:SFMLPractice\\Elastic.h||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{C6788A42-EB7B-4313-B0DB-560043E60B33}|SFMLPractice\\SFMLPractice.vcxproj|C:\\Users\\User\\source\\repos\\Math3\\SFMLPractice\\ITIMathmaticsForGD\\SFMLPractice\\PacMan.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
       "RelativeMoniker": "D:0:0:{C6788A42-EB7B-4313-B0DB-560043E60B33}|SFMLPractice\\SFMLPractice.vcxproj|solutionrelative:SFMLPractice\\PacMan.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{C6788A42-EB7B-4313-B0DB-560043E60B33}|SFMLPractice\\SFMLPractice.vcxproj|C:\\Users\\User\\source\\repos\\Math3\\SFMLPractice\\ITIMathmaticsForGD\\SFMLPractice\\ARC.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
-      "RelativeMoniker": "D:0:0:{C6788A42-EB7B-4313-B0DB-560043E60B33}|SFMLPractice\\SFMLPractice.vcxproj|solutionrelative:SFMLPractice\\ARC.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
+      "AbsoluteMoniker": "D:0:0:{C6788A42-EB7B-4313-B0DB-560043E60B33}|SFMLPractice\\SFMLPractice.vcxproj|C:\\Users\\User\\source\\repos\\Math3\\SFMLPractice\\ITIMathmaticsForGD\\SFMLPractice\\Parallax.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
+      "RelativeMoniker": "D:0:0:{C6788A42-EB7B-4313-B0DB-560043E60B33}|SFMLPractice\\SFMLPractice.vcxproj|solutionrelative:SFMLPractice\\Parallax.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{C6788A42-EB7B-4313-B0DB-560043E60B33}|SFMLPractice\\SFMLPractice.vcxproj|C:\\Users\\User\\source\\repos\\Math3\\SFMLPractice\\ITIMathmaticsForGD\\SFMLPractice\\Game.h||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
+      "RelativeMoniker": "D:0:0:{C6788A42-EB7B-4313-B0DB-560043E60B33}|SFMLPractice\\SFMLPractice.vcxproj|solutionrelative:SFMLPractice\\Game.h||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
     }
   ],
   "DocumentGroupContainers": [
@@ -38,19 +42,45 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 6,
+          "SelectedChildIndex": 1,
           "Children": [
             {
               "$type": "Document",
-              "DocumentIndex": 6,
-              "Title": "ARC.cpp",
-              "DocumentMoniker": "C:\\Users\\User\\source\\repos\\Math3\\SFMLPractice\\ITIMathmaticsForGD\\SFMLPractice\\ARC.cpp",
-              "RelativeDocumentMoniker": "SFMLPractice\\ARC.cpp",
-              "ToolTip": "C:\\Users\\User\\source\\repos\\Math3\\SFMLPractice\\ITIMathmaticsForGD\\SFMLPractice\\ARC.cpp",
-              "RelativeToolTip": "SFMLPractice\\ARC.cpp",
-              "ViewState": "AgIAABwAAAAAAAAAAADwvzAAAAAHAAAAAAAAAA==",
+              "DocumentIndex": 1,
+              "Title": "Easing.cpp",
+              "DocumentMoniker": "C:\\Users\\User\\source\\repos\\Math3\\SFMLPractice\\ITIMathmaticsForGD\\SFMLPractice\\Easing.cpp",
+              "RelativeDocumentMoniker": "SFMLPractice\\Easing.cpp",
+              "ToolTip": "C:\\Users\\User\\source\\repos\\Math3\\SFMLPractice\\ITIMathmaticsForGD\\SFMLPractice\\Easing.cpp",
+              "RelativeToolTip": "SFMLPractice\\Easing.cpp",
+              "ViewState": "AgIAAB4AAAAAAAAAAAAAACcAAAASAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000677|",
-              "WhenOpened": "2024-11-09T20:52:28.949Z",
+              "WhenOpened": "2024-11-11T16:28:48.456Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "Trail.cpp",
+              "DocumentMoniker": "C:\\Users\\User\\source\\repos\\Math3\\SFMLPractice\\ITIMathmaticsForGD\\SFMLPractice\\Trail.cpp",
+              "RelativeDocumentMoniker": "SFMLPractice\\Trail.cpp",
+              "ToolTip": "C:\\Users\\User\\source\\repos\\Math3\\SFMLPractice\\ITIMathmaticsForGD\\SFMLPractice\\Trail.cpp*",
+              "RelativeToolTip": "SFMLPractice\\Trail.cpp*",
+              "ViewState": "AgIAAB0AAAAAAAAAAAAiwCgAAAAgAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000677|",
+              "WhenOpened": "2024-11-11T17:40:52.657Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "Elastic.h",
+              "DocumentMoniker": "C:\\Users\\User\\source\\repos\\Math3\\SFMLPractice\\ITIMathmaticsForGD\\SFMLPractice\\Elastic.h",
+              "RelativeDocumentMoniker": "SFMLPractice\\Elastic.h",
+              "ToolTip": "C:\\Users\\User\\source\\repos\\Math3\\SFMLPractice\\ITIMathmaticsForGD\\SFMLPractice\\Elastic.h",
+              "RelativeToolTip": "SFMLPractice\\Elastic.h",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABAAAAARAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000680|",
+              "WhenOpened": "2024-11-10T10:38:36.123Z",
               "EditorCaption": ""
             },
             {
@@ -61,22 +91,35 @@
               "RelativeDocumentMoniker": "SFMLPractice\\PacMan.cpp",
               "ToolTip": "C:\\Users\\User\\source\\repos\\Math3\\SFMLPractice\\ITIMathmaticsForGD\\SFMLPractice\\PacMan.cpp",
               "RelativeToolTip": "SFMLPractice\\PacMan.cpp",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAQAAAAQAAAAAAAAAA==",
+              "ViewState": "AgIAAF0AAAAAAAAAAAAiwGEAAAAYAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000677|",
               "WhenOpened": "2024-11-11T16:48:07.221Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 4,
+              "DocumentIndex": 6,
               "Title": "Parallax.cpp",
               "DocumentMoniker": "C:\\Users\\User\\source\\repos\\Math3\\SFMLPractice\\ITIMathmaticsForGD\\SFMLPractice\\Parallax.cpp",
               "RelativeDocumentMoniker": "SFMLPractice\\Parallax.cpp",
               "ToolTip": "C:\\Users\\User\\source\\repos\\Math3\\SFMLPractice\\ITIMathmaticsForGD\\SFMLPractice\\Parallax.cpp",
               "RelativeToolTip": "SFMLPractice\\Parallax.cpp",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAcAAAACAAAAAAAAAA==",
+              "ViewState": "AgIAADEAAAAAAAAAAAAiwEsAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000677|",
               "WhenOpened": "2024-11-11T16:38:41.189Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "ARC.cpp",
+              "DocumentMoniker": "C:\\Users\\User\\source\\repos\\Math3\\SFMLPractice\\ITIMathmaticsForGD\\SFMLPractice\\ARC.cpp",
+              "RelativeDocumentMoniker": "SFMLPractice\\ARC.cpp",
+              "ToolTip": "C:\\Users\\User\\source\\repos\\Math3\\SFMLPractice\\ITIMathmaticsForGD\\SFMLPractice\\ARC.cpp",
+              "RelativeToolTip": "SFMLPractice\\ARC.cpp",
+              "ViewState": "AgIAACEAAAAAAAAAAAAAAAgAAAAnAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000677|",
+              "WhenOpened": "2024-11-09T20:52:28.949Z",
               "EditorCaption": ""
             },
             {
@@ -87,27 +130,14 @@
               "RelativeDocumentMoniker": "SFMLPractice\\Jumping.cpp",
               "ToolTip": "C:\\Users\\User\\source\\repos\\Math3\\SFMLPractice\\ITIMathmaticsForGD\\SFMLPractice\\Jumping.cpp",
               "RelativeToolTip": "SFMLPractice\\Jumping.cpp",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAcAAAAYAAAAAAAAAA==",
+              "ViewState": "AgIAABIAAAAAAAAAAAAAACQAAABAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000677|",
               "WhenOpened": "2024-11-11T16:35:55.776Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 2,
-              "Title": "Easing.cpp",
-              "DocumentMoniker": "C:\\Users\\User\\source\\repos\\Math3\\SFMLPractice\\ITIMathmaticsForGD\\SFMLPractice\\Easing.cpp",
-              "RelativeDocumentMoniker": "SFMLPractice\\Easing.cpp",
-              "ToolTip": "C:\\Users\\User\\source\\repos\\Math3\\SFMLPractice\\ITIMathmaticsForGD\\SFMLPractice\\Easing.cpp",
-              "RelativeToolTip": "SFMLPractice\\Easing.cpp",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAQAAAACAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000677|",
-              "WhenOpened": "2024-11-11T16:28:48.456Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 1,
+              "DocumentIndex": 7,
               "Title": "Game.h",
               "DocumentMoniker": "C:\\Users\\User\\source\\repos\\Math3\\SFMLPractice\\ITIMathmaticsForGD\\SFMLPractice\\Game.h",
               "RelativeDocumentMoniker": "SFMLPractice\\Game.h",
@@ -115,21 +145,7 @@
               "RelativeToolTip": "SFMLPractice\\Game.h",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAAMAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000680|",
-              "WhenOpened": "2024-11-09T20:58:14.94Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 0,
-              "Title": "Elastic.h",
-              "DocumentMoniker": "C:\\Users\\User\\source\\repos\\Math3\\SFMLPractice\\ITIMathmaticsForGD\\SFMLPractice\\Elastic.h",
-              "RelativeDocumentMoniker": "SFMLPractice\\Elastic.h",
-              "ToolTip": "C:\\Users\\User\\source\\repos\\Math3\\SFMLPractice\\ITIMathmaticsForGD\\SFMLPractice\\Elastic.h",
-              "RelativeToolTip": "SFMLPractice\\Elastic.h",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAQAAAARAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000680|",
-              "WhenOpened": "2024-11-10T10:38:36.123Z",
-              "EditorCaption": ""
+              "WhenOpened": "2024-11-09T20:58:14.94Z"
             }
           ]
         }
