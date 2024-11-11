@@ -134,8 +134,12 @@
     </Link>
   </ItemDefinitionGroup>
   <ItemGroup>
+    <ClCompile Include="Easing.cpp" />
     <ClCompile Include="Elastic.cpp" />
-    <ClCompile Include="Game.cpp" />
+    <ClCompile Include="ARC.cpp" />
+    <ClCompile Include="Jumping.cpp" />
+    <ClCompile Include="PacMan.cpp" />
+    <ClCompile Include="Parallax.cpp" />
   </ItemGroup>
   <ItemGroup>
     <ClInclude Include="Elastic.h" />

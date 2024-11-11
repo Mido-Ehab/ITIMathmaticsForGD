@@ -12,85 +12,8 @@ C:\Users\User\source\repos\Math3\SFMLPractice\ITIMathmaticsForGD\SFMLPractice\El
 C:\Users\User\source\repos\Math3\SFMLPractice\ITIMathmaticsForGD\SFMLPractice\Elastic.h(41,17): warning C4244: 'initializing': conversion from 'double' to 'float', possible loss of data
   (compiling source file 'Game.cpp')
   
-C:\Users\User\source\repos\Math3\SFMLPractice\ITIMathmaticsForGD\SFMLPractice\Game.cpp(162,79): warning C4244: 'argument': conversion from 'T' to 'T', possible loss of data
-C:\Users\User\source\repos\Math3\SFMLPractice\ITIMathmaticsForGD\SFMLPractice\Game.cpp(162,79): warning C4244:         with
-C:\Users\User\source\repos\Math3\SFMLPractice\ITIMathmaticsForGD\SFMLPractice\Game.cpp(162,79): warning C4244:         [
-C:\Users\User\source\repos\Math3\SFMLPractice\ITIMathmaticsForGD\SFMLPractice\Game.cpp(162,79): warning C4244:             T=unsigned int
-C:\Users\User\source\repos\Math3\SFMLPractice\ITIMathmaticsForGD\SFMLPractice\Game.cpp(162,79): warning C4244:         ]
-C:\Users\User\source\repos\Math3\SFMLPractice\ITIMathmaticsForGD\SFMLPractice\Game.cpp(162,79): warning C4244:         and
-C:\Users\User\source\repos\Math3\SFMLPractice\ITIMathmaticsForGD\SFMLPractice\Game.cpp(162,79): warning C4244:         [
-C:\Users\User\source\repos\Math3\SFMLPractice\ITIMathmaticsForGD\SFMLPractice\Game.cpp(162,79): warning C4244:             T=float
-C:\Users\User\source\repos\Math3\SFMLPractice\ITIMathmaticsForGD\SFMLPractice\Game.cpp(162,79): warning C4244:         ]
-C:\Users\User\source\repos\Math3\SFMLPractice\ITIMathmaticsForGD\SFMLPractice\Game.cpp(163,79): warning C4244: 'argument': conversion from 'T' to 'T', possible loss of data
-C:\Users\User\source\repos\Math3\SFMLPractice\ITIMathmaticsForGD\SFMLPractice\Game.cpp(163,79): warning C4244:         with
-C:\Users\User\source\repos\Math3\SFMLPractice\ITIMathmaticsForGD\SFMLPractice\Game.cpp(163,79): warning C4244:         [
-C:\Users\User\source\repos\Math3\SFMLPractice\ITIMathmaticsForGD\SFMLPractice\Game.cpp(163,79): warning C4244:             T=unsigned int
-C:\Users\User\source\repos\Math3\SFMLPractice\ITIMathmaticsForGD\SFMLPractice\Game.cpp(163,79): warning C4244:         ]
-C:\Users\User\source\repos\Math3\SFMLPractice\ITIMathmaticsForGD\SFMLPractice\Game.cpp(163,79): warning C4244:         and
-C:\Users\User\source\repos\Math3\SFMLPractice\ITIMathmaticsForGD\SFMLPractice\Game.cpp(163,79): warning C4244:         [
-C:\Users\User\source\repos\Math3\SFMLPractice\ITIMathmaticsForGD\SFMLPractice\Game.cpp(163,79): warning C4244:             T=float
-C:\Users\User\source\repos\Math3\SFMLPractice\ITIMathmaticsForGD\SFMLPractice\Game.cpp(163,79): warning C4244:         ]
-C:\Users\User\source\repos\Math3\SFMLPractice\ITIMathmaticsForGD\SFMLPractice\Game.cpp(164,80): warning C4244: 'argument': conversion from 'T' to 'T', possible loss of data
-C:\Users\User\source\repos\Math3\SFMLPractice\ITIMathmaticsForGD\SFMLPractice\Game.cpp(164,80): warning C4244:         with
-C:\Users\User\source\repos\Math3\SFMLPractice\ITIMathmaticsForGD\SFMLPractice\Game.cpp(164,80): warning C4244:         [
-C:\Users\User\source\repos\Math3\SFMLPractice\ITIMathmaticsForGD\SFMLPractice\Game.cpp(164,80): warning C4244:             T=unsigned int
-C:\Users\User\source\repos\Math3\SFMLPractice\ITIMathmaticsForGD\SFMLPractice\Game.cpp(164,80): warning C4244:         ]
-C:\Users\User\source\repos\Math3\SFMLPractice\ITIMathmaticsForGD\SFMLPractice\Game.cpp(164,80): warning C4244:         and
-C:\Users\User\source\repos\Math3\SFMLPractice\ITIMathmaticsForGD\SFMLPractice\Game.cpp(164,80): warning C4244:         [
-C:\Users\User\source\repos\Math3\SFMLPractice\ITIMathmaticsForGD\SFMLPractice\Game.cpp(164,80): warning C4244:             T=float
-C:\Users\User\source\repos\Math3\SFMLPractice\ITIMathmaticsForGD\SFMLPractice\Game.cpp(164,80): warning C4244:         ]
-C:\Users\User\source\repos\Math3\SFMLPractice\ITIMathmaticsForGD\SFMLPractice\Game.cpp(202,102): warning C4244: 'argument': conversion from 'T' to 'T', possible loss of data
-C:\Users\User\source\repos\Math3\SFMLPractice\ITIMathmaticsForGD\SFMLPractice\Game.cpp(202,102): warning C4244:         with
-C:\Users\User\source\repos\Math3\SFMLPractice\ITIMathmaticsForGD\SFMLPractice\Game.cpp(202,102): warning C4244:         [
-C:\Users\User\source\repos\Math3\SFMLPractice\ITIMathmaticsForGD\SFMLPractice\Game.cpp(202,102): warning C4244:             T=float
-C:\Users\User\source\repos\Math3\SFMLPractice\ITIMathmaticsForGD\SFMLPractice\Game.cpp(202,102): warning C4244:         ]
-C:\Users\User\source\repos\Math3\SFMLPractice\ITIMathmaticsForGD\SFMLPractice\Game.cpp(202,102): warning C4244:         and
-C:\Users\User\source\repos\Math3\SFMLPractice\ITIMathmaticsForGD\SFMLPractice\Game.cpp(202,102): warning C4244:         [
-C:\Users\User\source\repos\Math3\SFMLPractice\ITIMathmaticsForGD\SFMLPractice\Game.cpp(202,102): warning C4244:             T=int
-C:\Users\User\source\repos\Math3\SFMLPractice\ITIMathmaticsForGD\SFMLPractice\Game.cpp(202,102): warning C4244:         ]
-C:\Users\User\source\repos\Math3\SFMLPractice\ITIMathmaticsForGD\SFMLPractice\Game.cpp(202,87): warning C4244: 'argument': conversion from 'T' to 'T', possible loss of data
-C:\Users\User\source\repos\Math3\SFMLPractice\ITIMathmaticsForGD\SFMLPractice\Game.cpp(202,87): warning C4244:         with
-C:\Users\User\source\repos\Math3\SFMLPractice\ITIMathmaticsForGD\SFMLPractice\Game.cpp(202,87): warning C4244:         [
-C:\Users\User\source\repos\Math3\SFMLPractice\ITIMathmaticsForGD\SFMLPractice\Game.cpp(202,87): warning C4244:             T=float
-C:\Users\User\source\repos\Math3\SFMLPractice\ITIMathmaticsForGD\SFMLPractice\Game.cpp(202,87): warning C4244:         ]
-C:\Users\User\source\repos\Math3\SFMLPractice\ITIMathmaticsForGD\SFMLPractice\Game.cpp(202,87): warning C4244:         and
-C:\Users\User\source\repos\Math3\SFMLPractice\ITIMathmaticsForGD\SFMLPractice\Game.cpp(202,87): warning C4244:         [
-C:\Users\User\source\repos\Math3\SFMLPractice\ITIMathmaticsForGD\SFMLPractice\Game.cpp(202,87): warning C4244:             T=int
-C:\Users\User\source\repos\Math3\SFMLPractice\ITIMathmaticsForGD\SFMLPractice\Game.cpp(202,87): warning C4244:         ]
-C:\Users\User\source\repos\Math3\SFMLPractice\ITIMathmaticsForGD\SFMLPractice\Game.cpp(203,102): warning C4244: 'argument': conversion from 'T' to 'T', possible loss of data
-C:\Users\User\source\repos\Math3\SFMLPractice\ITIMathmaticsForGD\SFMLPractice\Game.cpp(203,102): warning C4244:         with
-C:\Users\User\source\repos\Math3\SFMLPractice\ITIMathmaticsForGD\SFMLPractice\Game.cpp(203,102): warning C4244:         [
-C:\Users\User\source\repos\Math3\SFMLPractice\ITIMathmaticsForGD\SFMLPractice\Game.cpp(203,102): warning C4244:             T=float
-C:\Users\User\source\repos\Math3\SFMLPractice\ITIMathmaticsForGD\SFMLPractice\Game.cpp(203,102): warning C4244:         ]
-C:\Users\User\source\repos\Math3\SFMLPractice\ITIMathmaticsForGD\SFMLPractice\Game.cpp(203,102): warning C4244:         and
-C:\Users\User\source\repos\Math3\SFMLPractice\ITIMathmaticsForGD\SFMLPractice\Game.cpp(203,102): warning C4244:         [
-C:\Users\User\source\repos\Math3\SFMLPractice\ITIMathmaticsForGD\SFMLPractice\Game.cpp(203,102): warning C4244:             T=int
-C:\Users\User\source\repos\Math3\SFMLPractice\ITIMathmaticsForGD\SFMLPractice\Game.cpp(203,102): warning C4244:         ]
-C:\Users\User\source\repos\Math3\SFMLPractice\ITIMathmaticsForGD\SFMLPractice\Game.cpp(203,87): warning C4244: 'argument': conversion from 'T' to 'T', possible loss of data
-C:\Users\User\source\repos\Math3\SFMLPractice\ITIMathmaticsForGD\SFMLPractice\Game.cpp(203,87): warning C4244:         with
-C:\Users\User\source\repos\Math3\SFMLPractice\ITIMathmaticsForGD\SFMLPractice\Game.cpp(203,87): warning C4244:         [
-C:\Users\User\source\repos\Math3\SFMLPractice\ITIMathmaticsForGD\SFMLPractice\Game.cpp(203,87): warning C4244:             T=float
-C:\Users\User\source\repos\Math3\SFMLPractice\ITIMathmaticsForGD\SFMLPractice\Game.cpp(203,87): warning C4244:         ]
-C:\Users\User\source\repos\Math3\SFMLPractice\ITIMathmaticsForGD\SFMLPractice\Game.cpp(203,87): warning C4244:         and
-C:\Users\User\source\repos\Math3\SFMLPractice\ITIMathmaticsForGD\SFMLPractice\Game.cpp(203,87): warning C4244:         [
-C:\Users\User\source\repos\Math3\SFMLPractice\ITIMathmaticsForGD\SFMLPractice\Game.cpp(203,87): warning C4244:             T=int
-C:\Users\User\source\repos\Math3\SFMLPractice\ITIMathmaticsForGD\SFMLPractice\Game.cpp(203,87): warning C4244:         ]
-C:\Users\User\source\repos\Math3\SFMLPractice\ITIMathmaticsForGD\SFMLPractice\Game.cpp(204,106): warning C4244: 'argument': conversion from 'T' to 'T', possible loss of data
-C:\Users\User\source\repos\Math3\SFMLPractice\ITIMathmaticsForGD\SFMLPractice\Game.cpp(204,106): warning C4244:         with
-C:\Users\User\source\repos\Math3\SFMLPractice\ITIMathmaticsForGD\SFMLPractice\Game.cpp(204,106): warning C4244:         [
-C:\Users\User\source\repos\Math3\SFMLPractice\ITIMathmaticsForGD\SFMLPractice\Game.cpp(204,106): warning C4244:             T=float
-C:\Users\User\source\repos\Math3\SFMLPractice\ITIMathmaticsForGD\SFMLPractice\Game.cpp(204,106): warning C4244:         ]
-C:\Users\User\source\repos\Math3\SFMLPractice\ITIMathmaticsForGD\SFMLPractice\Game.cpp(204,106): warning C4244:         and
-C:\Users\User\source\repos\Math3\SFMLPractice\ITIMathmaticsForGD\SFMLPractice\Game.cpp(204,106): warning C4244:         [
-C:\Users\User\source\repos\Math3\SFMLPractice\ITIMathmaticsForGD\SFMLPractice\Game.cpp(204,106): warning C4244:             T=int
-C:\Users\User\source\repos\Math3\SFMLPractice\ITIMathmaticsForGD\SFMLPractice\Game.cpp(204,106): warning C4244:         ]
-C:\Users\User\source\repos\Math3\SFMLPractice\ITIMathmaticsForGD\SFMLPractice\Game.cpp(204,90): warning C4244: 'argument': conversion from 'T' to 'T', possible loss of data
-C:\Users\User\source\repos\Math3\SFMLPractice\ITIMathmaticsForGD\SFMLPractice\Game.cpp(204,90): warning C4244:         with
-C:\Users\User\source\repos\Math3\SFMLPractice\ITIMathmaticsForGD\SFMLPractice\Game.cpp(204,90): warning C4244:         [
-C:\Users\User\source\repos\Math3\SFMLPractice\ITIMathmaticsForGD\SFMLPractice\Game.cpp(204,90): warning C4244:             T=float
-C:\Users\User\source\repos\Math3\SFMLPractice\ITIMathmaticsForGD\SFMLPractice\Game.cpp(204,90): warning C4244:         ]
-C:\Users\User\source\repos\Math3\SFMLPractice\ITIMathmaticsForGD\SFMLPractice\Game.cpp(204,90): warning C4244:         and
-C:\Users\User\source\repos\Math3\SFMLPractice\ITIMathmaticsForGD\SFMLPractice\Game.cpp(204,90): warning C4244:         [
-C:\Users\User\source\repos\Math3\SFMLPractice\ITIMathmaticsForGD\SFMLPractice\Game.cpp(204,90): warning C4244:             T=int
-C:\Users\User\source\repos\Math3\SFMLPractice\ITIMathmaticsForGD\SFMLPractice\Game.cpp(204,90): warning C4244:         ]
+  PacMan.cpp
+C:\Users\User\source\repos\Math3\SFMLPractice\ITIMathmaticsForGD\SFMLPractice\PacMan.cpp(40,26): warning C4018: '<': signed/unsigned mismatch
+  Parallax.cpp
+  Generating Code...
   SFMLPractice.vcxproj -> C:\Users\User\source\repos\Math3\SFMLPractice\ITIMathmaticsForGD\Debug\Math1Tasks.exe
