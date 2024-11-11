@@ -1,0 +1,35 @@
+﻿C:\Program Files\Microsoft Visual Studio\2022\Community\MSBuild\Microsoft\VC\v170\Microsoft.CppBuild.targets(531,5): warning MSB8028: The intermediate directory (Debug\) contains files shared from another project (SFMLPractice.vcxproj, SnakePractice.vcxproj).  This can lead to incorrect clean and rebuild behavior.
+  Elastic.cpp
+  Game.cpp
+C:\Users\User\source\repos\Math3\SFMLPractice\ITIMathmaticsForGD\SFMLPractice\Elastic.h(18,17): warning C4244: 'initializing': conversion from 'double' to 'float', possible loss of data
+  (compiling source file 'Game.cpp')
+  
+C:\Users\User\source\repos\Math3\SFMLPractice\ITIMathmaticsForGD\SFMLPractice\Elastic.h(19,55): warning C4244: 'return': conversion from 'double' to 'float', possible loss of data
+  (compiling source file 'Game.cpp')
+  
+C:\Users\User\source\repos\Math3\SFMLPractice\ITIMathmaticsForGD\SFMLPractice\Elastic.h(28,10): warning C4244: 'return': conversion from 'double' to 'float', possible loss of data
+  (compiling source file 'Game.cpp')
+  
+C:\Users\User\source\repos\Math3\SFMLPractice\ITIMathmaticsForGD\SFMLPractice\Elastic.h(38,18): warning C4244: 'initializing': conversion from 'double' to 'float', possible loss of data
+  (compiling source file 'Game.cpp')
+  
+C:\Users\User\source\repos\Math3\SFMLPractice\ITIMathmaticsForGD\SFMLPractice\Elastic.h(39,62): warning C4244: 'return': conversion from 'double' to 'float', possible loss of data
+  (compiling source file 'Game.cpp')
+  
+C:\Users\User\source\repos\Math3\SFMLPractice\ITIMathmaticsForGD\SFMLPractice\Elastic.h(41,17): warning C4244: 'initializing': conversion from 'double' to 'float', possible loss of data
+  (compiling source file 'Game.cpp')
+  
+C:\Users\User\source\repos\Math3\SFMLPractice\ITIMathmaticsForGD\SFMLPractice\Elastic.h(42,62): warning C4244: 'return': conversion from 'double' to 'float', possible loss of data
+  (compiling source file 'Game.cpp')
+  
+C:\Users\User\source\repos\Math3\SFMLPractice\ITIMathmaticsForGD\SFMLPractice\Game.cpp(4,9): warning C4005: 'PI': macro redefinition
+      C:\Users\User\source\repos\Math3\SFMLPractice\ITIMathmaticsForGD\SFMLPractice\Elastic.h(5,9):
+      see previous definition of 'PI'
+  
+C:\Users\User\source\repos\Math3\SFMLPractice\ITIMathmaticsForGD\SFMLPractice\Game.cpp(237,26): warning C4018: '<': signed/unsigned mismatch
+  Game1.cpp
+  Snake.cpp
+  SnakePractice.cpp
+  World.cpp
+  Generating Code...
+  SFMLPractice.vcxproj -> C:\Users\User\source\repos\Math3\SFMLPractice\ITIMathmaticsForGD\Debug\Math1Tasks.exe
