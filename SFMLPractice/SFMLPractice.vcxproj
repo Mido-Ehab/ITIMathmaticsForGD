@@ -136,10 +136,6 @@
   <ItemGroup>
     <ClCompile Include="Elastic.cpp" />
     <ClCompile Include="Game.cpp" />
-    <ClCompile Include="Game1.cpp" />
-    <ClCompile Include="Snake.cpp" />
-    <ClCompile Include="SnakePractice.cpp" />
-    <ClCompile Include="World.cpp" />
   </ItemGroup>
   <ItemGroup>
     <ClInclude Include="Elastic.h" />
