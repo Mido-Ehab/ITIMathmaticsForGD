@@ -137,6 +137,87 @@
 //}
 
 
+
+
+//-----------------------------------------------------------------task3 Parallax
+
+
+#include <SFML/Graphics.hpp>
+
+int main() {
+    sf::RenderWindow window(sf::VideoMode(400, 300), "Parallax Task");
+
+
+    sf::Texture textureFar, textureMid, textureNear;
+    if (!textureFar.loadFromFile("background_far.png") ||
+        !textureMid.loadFromFile("background_mid.png") ||
+        !textureNear.loadFromFile("background_near.png")) {
+        return -1;
+    }
+
+    textureFar.setRepeated(true);
+    textureMid.setRepeated(true);
+    textureNear.setRepeated(true);
+
+    sf::FloatRect farRect(0.f, 0.f, window.getSize().x * 2.f, window.getSize().y);
+    sf::FloatRect midRect(0.f, 0.f, window.getSize().x * 2.f, window.getSize().y);
+    sf::FloatRect nearRect(0.f, 0.f, window.getSize().x * 2.f, window.getSize().y);
+
+
+    sf::Sprite farLayer(textureFar);
+    sf::Sprite midLayer(textureMid);
+    sf::Sprite nearLayer(textureNear);
+
+    float farSpeed = 0.f;   //msh far2aaaaaa mogrd loooon
+    float midSpeed = 60.f;
+    float nearSpeed = 100.f;
+
+    sf::Clock clock;
+
+    // Horizontal scrolling direction
+    float movementDirection = 1.f;
+
+    while (window.isOpen()) {
+        sf::Event event;
+        while (window.pollEvent(event)) {
+            if (event.type == sf::Event::Closed)
+                window.close();
+        }
+
+        // Get delta time for smooth movement each frame
+        float deltaTime = clock.restart().asSeconds();
+
+        // Adjust each layer's FloatRect for smooth scrolling
+        farRect.left += farSpeed * deltaTime * movementDirection;
+        midRect.left += midSpeed * deltaTime * movementDirection;
+        nearRect.left += nearSpeed * deltaTime * movementDirection;
+
+        // Reset texture rectangles for seamless looping
+      /*  if (farRect.left >= textureFar.getSize().x) farRect.left = 0.f;*/
+      /*  if (midRect.left >= textureMid.getSize().x) midRect.left = 0.f;
+        if (nearRect.left >= textureNear.getSize().x) nearRect.left = 0.f;*/
+
+
+        // Convert FloatRect to IntRect for applying texture rectangles
+        farLayer.setTextureRect(sf::IntRect(static_cast<int>(farRect.left), 0, farRect.width, farRect.height));
+        midLayer.setTextureRect(sf::IntRect(static_cast<int>(midRect.left), 0, midRect.width, midRect.height));
+        nearLayer.setTextureRect(sf::IntRect(static_cast<int>(nearRect.left), 0, nearRect.width, nearRect.height));
+
+        // Draw layers from back to front
+        window.clear();
+        window.draw(farLayer);
+        window.draw(midLayer);
+        window.draw(nearLayer);
+        window.display();
+    }
+
+    return 0;
+}
+
+
+
+
+
 //----------------------------------------------------------------------------------------------------------Task4 Arc
 
 //
@@ -314,293 +395,3 @@
 //
 //    return 0;
 //}
-
-
-
-
-//-------------------------------------------------------------------------------------------------Practice
-//#include <SFML/Graphics.hpp>
-//
-//float getX(float totalTime, float totalDistance, float t, float k)
-//{
-//    return (totalDistance * (1 - exp(k * t))) / (1 - exp(k * totalTime));
-//}
-//
-//int main()
-//{
-//    sf::RenderWindow window(sf::VideoMode(800, 600), "SFML Template!");
-//    sf::CircleShape shape(20);
-//    shape.setOrigin(20, 20);
-//    shape.setFillColor(sf::Color::Green);
-//
-//    sf::Vector2f position(20, 300);
-//
-//    sf::Clock clock;
-//    float time;
-//
-//    while (window.isOpen())
-//    {
-//        time = clock.getElapsedTime().asSeconds();
-//
-//        sf::Event event;
-//        while (window.pollEvent(event))
-//        {
-//            if (event.type == sf::Event::Closed)
-//                window.close();
-//        }
-//
-//        if (time < 3)
-//            position.x = getX(3, 800, time, 3);
-//        else {}
-//
-//        shape.setPosition(position);
-//
-//        window.clear();
-//
-//        window.draw(shape);
-//
-//        window.display();
-//    }
-//
-//    return 0;
-//}
-
-
-
-//#include <SFML/Graphics.hpp>
-//
-//int main()
-//{
-//    sf::RenderWindow window(sf::VideoMode(800, 600), "SFML Template!");
-//    sf::RectangleShape shape;
-//    shape.setSize(sf::Vector2f(100, 20));
-//    shape.setOrigin(50, 10);
-//
-//    shape.setFillColor(sf::Color::Green);
-//
-//    sf::Vector2f startPos(400, 300);
-//    sf::Vector2f position(400, 300);
-//
-//    sf::Clock clock;
-//    float time;
-//
-//    float amp = 100;
-//    float f = 3;
-//
-//    while (window.isOpen())
-//    {
-//        time = clock.getElapsedTime().asSeconds();
-//
-//        sf::Event event;
-//        while (window.pollEvent(event))
-//        {
-//            if (event.type == sf::Event::Closed)
-//                window.close();
-//        }
-//
-//        position.y = startPos.y + (amp * cos(time) * sin(f * time));
-//        position.x = startPos.x + (amp * cos(time) * sin(f * time));
-//
-//        shape.setPosition(position);
-//
-//        window.clear();
-//        window.draw(shape);
-//        window.display();
-//    }
-//
-//    return 0;
-//}
-
-
-
-
-
-
-
-
-
-
-
-// 
-//
-//#include <SFML/Graphics.hpp>
-//
-//int main()
-//{
-//    sf::RenderWindow window(sf::VideoMode(800, 600), "SFML Template!");
-//
-//    sf::CircleShape shape(20);
-//    shape.setOrigin(20, 20);
-//
-//    shape.setFillColor(sf::Color::Green);
-//
-//    sf::Vector2f position(20, 300); //start pos
-//
-//    float speedX = 100;
-//    float speedY = 20;
-//
-//    sf::Clock deltaTimeClock;
-//    float deltaTime;
-//
-//    sf::Clock timeClock;
-//    float time;
-//
-//    while (window.isOpen())
-//    {
-//        time = timeClock.getElapsedTime().asSeconds();
-//        deltaTime = deltaTimeClock.restart().asSeconds();
-//
-//        sf::Event event;
-//        while (window.pollEvent(event))
-//        {
-//            if (event.type == sf::Event::Closed)
-//                window.close();
-//        }
-//
-//        position calculations
-//
-//        float deltaX = speedX * deltaTime;
-//        float deltaY = speedY * deltaTime;
-//
-//        position.x = time * speedX;  // distance = speed * time
-//        position.y += deltaY;
-//
-//        shape.setPosition(position);
-//
-//        window.clear();
-//
-//        window.draw(shape);
-//
-//        window.display();
-//    }
-//
-//    return 0;
-//}
-//
-
-
-
-
-
-
-
-//void getCircle(sf::ConvexShape& shape, const sf::Vector2f& center, float radius)
-//{
-//    int pointsCount = shape.getPointCount();
-//    float angle = 0;   // rad
-//    float deltaAngle = (2 * PI) / pointsCount;
-//
-//    for (size_t i = 0; i < pointsCount; i++)
-//    {
-//        sf::Vector2f point;
-//        point.x = center.x + radius * cos(angle);   // r * cos(0)
-//        point.y = center.y + radius * sin(angle);   // r * sin(0)
-//
-//        shape.setPoint(i, point);
-//        angle += deltaAngle;
-//    }
-//}
-//
-//
-//int main()
-//{
-//    sf::RenderWindow window(sf::VideoMode(200, 200), "SFML Template!");
-//    sf::ConvexShape shape(1000);
-//    sf::ConvexShape shape2(1000);
-//    getCircle(shape, sf::Vector2f(100, 100), 100);
-//    
-//    shape.setFillColor(sf::Color::Green);
-//    shape2.setFillColor(sf::Color::Black);
-//
-//    while (window.isOpen())
-//    {
-//        sf::Event event;
-//        while (window.pollEvent(event))
-//        {
-//            if (event.type == sf::Event::Closed)
-//                window.close();
-//        }
-//
-//        window.clear();
-//        window.draw(shape);
-//        window.draw(shape2);
-//        window.display();
-//    }
-//
-//    return 0;
-//}
-
-
-
-#include <SFML/Graphics.hpp>
-
-int main() {
-    sf::RenderWindow window(sf::VideoMode(400, 300), "Parallax Task");
-
-    
-    sf::Texture textureFar, textureMid, textureNear;
-    if (!textureFar.loadFromFile("background_far.png") ||
-        !textureMid.loadFromFile("background_mid.png") ||
-        !textureNear.loadFromFile("background_near.png")) {
-        return -1;  
-    }
-
-    textureFar.setRepeated(true);
-    textureMid.setRepeated(true);
-    textureNear.setRepeated(true);
-
-    sf::FloatRect farRect(0.f, 0.f, window.getSize().x * 2.f, window.getSize().y);
-    sf::FloatRect midRect(0.f, 0.f, window.getSize().x * 2.f, window.getSize().y);
-    sf::FloatRect nearRect(0.f, 0.f, window.getSize().x * 2.f, window.getSize().y);
-
-
-    sf::Sprite farLayer(textureFar);
-    sf::Sprite midLayer(textureMid);
-    sf::Sprite nearLayer(textureNear);
-
-    float farSpeed = 0.f;   //msh far2aaaaaa mogrd loooon
-    float midSpeed = 60.f;   
-    float nearSpeed = 100.f; 
-
-    sf::Clock clock;
-
-    // Horizontal scrolling direction
-    float movementDirection = 1.f;  
-
-    while (window.isOpen()) {
-        sf::Event event;
-        while (window.pollEvent(event)) {
-            if (event.type == sf::Event::Closed)
-                window.close();
-        }
-
-        // Get delta time for smooth movement each frame
-        float deltaTime = clock.restart().asSeconds();
-
-        // Adjust each layer's FloatRect for smooth scrolling
-        farRect.left += farSpeed * deltaTime * movementDirection;
-        midRect.left += midSpeed * deltaTime * movementDirection;
-        nearRect.left += nearSpeed * deltaTime * movementDirection;
-
-        // Reset texture rectangles for seamless looping
-      /*  if (farRect.left >= textureFar.getSize().x) farRect.left = 0.f;*/
-      /*  if (midRect.left >= textureMid.getSize().x) midRect.left = 0.f;
-        if (nearRect.left >= textureNear.getSize().x) nearRect.left = 0.f;*/
-
-
-        // Convert FloatRect to IntRect for applying texture rectangles
-        farLayer.setTextureRect(sf::IntRect(static_cast<int>(farRect.left), 0, farRect.width, farRect.height));
-        midLayer.setTextureRect(sf::IntRect(static_cast<int>(midRect.left), 0, midRect.width, midRect.height));
-        nearLayer.setTextureRect(sf::IntRect(static_cast<int>(nearRect.left), 0, nearRect.width, nearRect.height));
-
-        // Draw layers from back to front
-        window.clear();
-        window.draw(farLayer);
-        window.draw(midLayer);
-        window.draw(nearLayer);
-        window.display();
-    }
-
-    return 0;
-}
-
