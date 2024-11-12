@@ -134,6 +134,7 @@
     </Link>
   </ItemDefinitionGroup>
   <ItemGroup>
+    <ClCompile Include="bezier.cpp" />
     <ClCompile Include="Easing.cpp" />
     <ClCompile Include="Elastic.cpp" />
     <ClCompile Include="ARC.cpp" />
