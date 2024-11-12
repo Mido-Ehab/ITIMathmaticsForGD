@@ -4,19 +4,6 @@
 //
 //
 //
-//float dot(sf::Vector2f v1, sf::Vector2f v2)  //func for dot
-//{
-//    return v1.x * v2.x + v1.y * v2.y;
-//}
-//
-//sf::Vector2f project(sf::Vector2f v1, sf::Vector2f v2)  //function for projectile 
-//{
-//    float dot1 = dot(v1, v2);
-//    float dot2 = dot(v2, v2);
-//
-//    return (dot1 / dot2) * v2;
-//}
-//
 //class DraggablePoint {        //class for draggablePoint
 //    sf::CircleShape shape;
 //    bool isDragging = false;
@@ -36,8 +23,14 @@
 //
 //    void drag(const sf::Vector2i& mousePos)   //when dragged set dot position based on mouse pos
 //    {
-//        if (!isDragging) return;
-//        shape.setPosition((sf::Vector2f)mousePos);
+//        if (!isDragging)
+//        {
+//            return;
+//        }
+//        else
+//        {
+//            shape.setPosition((sf::Vector2f)mousePos);
+//        }
 //    }
 //
 //    void endDrag() // when mouse release --> end drag
