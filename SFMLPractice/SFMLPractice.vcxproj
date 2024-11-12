@@ -138,7 +138,9 @@
     <ClCompile Include="Easing.cpp" />
     <ClCompile Include="Elastic.cpp" />
     <ClCompile Include="ARC.cpp" />
+    <ClCompile Include="FOV.cpp" />
     <ClCompile Include="Jumping.cpp" />
+    <ClCompile Include="Mirror.cpp" />
     <ClCompile Include="PacMan.cpp" />
     <ClCompile Include="Parallax.cpp" />
     <ClCompile Include="Trail.cpp" />

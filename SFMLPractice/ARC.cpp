@@ -1,10 +1,10 @@
-#include <SFML/Graphics.hpp>
-#include<math.h>
-#include"Elastic.h"
-#define PI 22/7.f
-
-//----------------------------------------------------------------------------------------------------------Task4 Arc
-
+//#include <SFML/Graphics.hpp>
+//#include<math.h>
+//#include"Elastic.h"
+//#define PI 22/7.f
+//
+/////////----------------------------------------------------------------------------------------------------------Task4 Arc
+//
 //
 //void updateArc(sf::ConvexShape& shape, const sf::Vector2f& center, float radius, float startAngle, float endAngle)
 //{
@@ -41,7 +41,7 @@
 //    sf::ConvexShape pacman(30);  // Adjust points to control smoothness of arc
 //
 //    // Configure the Pac-Man arc
-//    updateArc(pacman, sf::Vector2f(200, 200), 150, 30, 340);  // 30 to 330 degrees for a "mouth" shape
+//    updateArc(pacman, sf::Vector2f(200, 200), 150, 300, 360);  // 30 to 330 degrees for a "mouth" shape
 //
 //    pacman.setFillColor(sf::Color::Yellow);
 //

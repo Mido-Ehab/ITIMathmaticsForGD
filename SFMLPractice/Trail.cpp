@@ -23,7 +23,7 @@
 //    void follow(const sf::Vector2f& target) {
 //        sf::Vector2f position = circle.getPosition();
 //        position.x += followSpeed * (target.x - position.x); //y2-y1 = a(x2-x1)
-//        position.y += followSpeed * (target.y - position.y);
+//        position.y += followSpeed * (target.y - position.y);//x2-x1 = a(y2-y1)
 //        circle.setPosition(position);
 //    }
 //};
