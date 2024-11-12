@@ -11,6 +11,10 @@
       "RelativeMoniker": "D:0:0:{C6788A42-EB7B-4313-B0DB-560043E60B33}|SFMLPractice\\SFMLPractice.vcxproj|solutionrelative:SFMLPractice\\FOV.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
     },
     {
+      "AbsoluteMoniker": "D:0:0:{C6788A42-EB7B-4313-B0DB-560043E60B33}|SFMLPractice\\SFMLPractice.vcxproj|C:\\Users\\User\\source\\repos\\Math3\\SFMLPractice\\ITIMathmaticsForGD\\SFMLPractice\\ARC.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
+      "RelativeMoniker": "D:0:0:{C6788A42-EB7B-4313-B0DB-560043E60B33}|SFMLPractice\\SFMLPractice.vcxproj|solutionrelative:SFMLPractice\\ARC.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
+    },
+    {
       "AbsoluteMoniker": "D:0:0:{C6788A42-EB7B-4313-B0DB-560043E60B33}|SFMLPractice\\SFMLPractice.vcxproj|C:\\Users\\User\\source\\repos\\Math3\\SFMLPractice\\ITIMathmaticsForGD\\SFMLPractice\\bezier.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
       "RelativeMoniker": "D:0:0:{C6788A42-EB7B-4313-B0DB-560043E60B33}|SFMLPractice\\SFMLPractice.vcxproj|solutionrelative:SFMLPractice\\bezier.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
     },
@@ -21,10 +25,6 @@
     {
       "AbsoluteMoniker": "D:0:0:{C6788A42-EB7B-4313-B0DB-560043E60B33}|SFMLPractice\\SFMLPractice.vcxproj|C:\\Users\\User\\source\\repos\\Math3\\SFMLPractice\\ITIMathmaticsForGD\\SFMLPractice\\Trail.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
       "RelativeMoniker": "D:0:0:{C6788A42-EB7B-4313-B0DB-560043E60B33}|SFMLPractice\\SFMLPractice.vcxproj|solutionrelative:SFMLPractice\\Trail.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{C6788A42-EB7B-4313-B0DB-560043E60B33}|SFMLPractice\\SFMLPractice.vcxproj|C:\\Users\\User\\source\\repos\\Math3\\SFMLPractice\\ITIMathmaticsForGD\\SFMLPractice\\ARC.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
-      "RelativeMoniker": "D:0:0:{C6788A42-EB7B-4313-B0DB-560043E60B33}|SFMLPractice\\SFMLPractice.vcxproj|solutionrelative:SFMLPractice\\ARC.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{C6788A42-EB7B-4313-B0DB-560043E60B33}|SFMLPractice\\SFMLPractice.vcxproj|C:\\Users\\User\\source\\repos\\Math3\\SFMLPractice\\ITIMathmaticsForGD\\SFMLPractice\\Game.h||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
@@ -64,14 +64,14 @@
               "RelativeDocumentMoniker": "SFMLPractice\\Mirror.cpp",
               "ToolTip": "C:\\Users\\User\\source\\repos\\Math3\\SFMLPractice\\ITIMathmaticsForGD\\SFMLPractice\\Mirror.cpp",
               "RelativeToolTip": "SFMLPractice\\Mirror.cpp",
-              "ViewState": "AgIAAP0AAAAAAAAAAAAYwAoBAAAfAAAAAAAAAA==",
+              "ViewState": "AgIAAI0AAAAAAAAAAAAUwJkAAAAgAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000677|",
               "WhenOpened": "2024-11-12T15:34:55.745Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 2,
+              "DocumentIndex": 3,
               "Title": "bezier.cpp",
               "DocumentMoniker": "C:\\Users\\User\\source\\repos\\Math3\\SFMLPractice\\ITIMathmaticsForGD\\SFMLPractice\\bezier.cpp",
               "RelativeDocumentMoniker": "SFMLPractice\\bezier.cpp",
@@ -79,8 +79,7 @@
               "RelativeToolTip": "SFMLPractice\\bezier.cpp",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAKgAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000677|",
-              "WhenOpened": "2024-11-12T07:56:20.36Z",
-              "EditorCaption": ""
+              "WhenOpened": "2024-11-12T07:56:20.36Z"
             },
             {
               "$type": "Document",
@@ -97,13 +96,13 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 5,
+              "DocumentIndex": 2,
               "Title": "ARC.cpp",
               "DocumentMoniker": "C:\\Users\\User\\source\\repos\\Math3\\SFMLPractice\\ITIMathmaticsForGD\\SFMLPractice\\ARC.cpp",
               "RelativeDocumentMoniker": "SFMLPractice\\ARC.cpp",
               "ToolTip": "C:\\Users\\User\\source\\repos\\Math3\\SFMLPractice\\ITIMathmaticsForGD\\SFMLPractice\\ARC.cpp",
               "RelativeToolTip": "SFMLPractice\\ARC.cpp",
-              "ViewState": "AgIAACwAAAAAAAAAAAAqwD8AAAAAAAAAAAAAAA==",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAYAAAACAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000677|",
               "WhenOpened": "2024-11-09T20:52:28.949Z",
               "EditorCaption": ""
@@ -134,7 +133,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 3,
+              "DocumentIndex": 4,
               "Title": "Easing.cpp",
               "DocumentMoniker": "C:\\Users\\User\\source\\repos\\Math3\\SFMLPractice\\ITIMathmaticsForGD\\SFMLPractice\\Easing.cpp",
               "RelativeDocumentMoniker": "SFMLPractice\\Easing.cpp",
@@ -142,12 +141,11 @@
               "RelativeToolTip": "SFMLPractice\\Easing.cpp",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAACcAAAASAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000677|",
-              "WhenOpened": "2024-11-11T16:28:48.456Z",
-              "EditorCaption": ""
+              "WhenOpened": "2024-11-11T16:28:48.456Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 4,
+              "DocumentIndex": 5,
               "Title": "Trail.cpp",
               "DocumentMoniker": "C:\\Users\\User\\source\\repos\\Math3\\SFMLPractice\\ITIMathmaticsForGD\\SFMLPractice\\Trail.cpp",
               "RelativeDocumentMoniker": "SFMLPractice\\Trail.cpp",
@@ -155,8 +153,7 @@
               "RelativeToolTip": "SFMLPractice\\Trail.cpp",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAADcAAAACAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000677|",
-              "WhenOpened": "2024-11-11T17:40:52.657Z",
-              "EditorCaption": ""
+              "WhenOpened": "2024-11-11T17:40:52.657Z"
             },
             {
               "$type": "Document",
