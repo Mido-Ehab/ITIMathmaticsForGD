@@ -142,7 +142,7 @@ int main() {
 
         window.clear();
 
-        // Draw control points and lines
+        // Draw control points and lines 
         point0.draw(window);
         point1.draw(window);
         point2.draw(window);
