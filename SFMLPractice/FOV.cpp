@@ -97,7 +97,7 @@
 //        float playerFacingAngle = calculateAngle(player.circle.getPosition(), mousePos);
 //
 //        // Normalize angle difference to the range [-180, 180]
-//        float angleDifference = playerToEnemyAngle - playerFacingAngle;
+//        float angleDifference = playerToEnemyAngle - playerFacingAngle; 
 //        if (angleDifference > 180.f) angleDifference -= 360.f;
 //        if (angleDifference < -180.f) angleDifference += 360.f;
 //

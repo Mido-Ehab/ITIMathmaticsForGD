@@ -57,7 +57,7 @@
 //    float uuu = uu * u;
 //    float ttt = tt * t;
 //
-//    return uuu * p0 + 3 * uu * t * p1 + 3 * u * tt * p2 + ttt * p3; // (1-t)^3*p0 + 3(1-t)^2*t*p1 + 3(1-t)t^2p2 + t^3p3
+//    return uuu * p0 + 3 * uu * t * p1 + 3 * u * tt * p2 + ttt * p3; // (1-t)^3*p0 + 3(1-t)^2*t*p1 + 3(1-t)t^2*p2 + t^3*p3
 //}
 //
 //int main()

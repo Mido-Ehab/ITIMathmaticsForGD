@@ -47,8 +47,8 @@ sf::Vector2f reflectAcrossLine(const sf::Vector2f& point0, const sf::Vector2f& p
     sf::Vector2f lineNormal(-lineDir.y, lineDir.x); // Perpendicular vector
 
     // Normalize lineNormal
-    float length = std::sqrt(lineNormal.x * lineNormal.x + lineNormal.y * lineNormal.y);
-    lineNormal /= length;
+    float length = std::sqrt(lineNormal.x * lineNormal.x + lineNormal.y * lineNormal.y); //sqrt [(x^2)+(y^2)0 // magnitude
+    lineNormal = lineNormal/ length;  // unit vector 
 
     // Calculate the distance from point2 to the line
     float distance = (point2 - point0).x * lineNormal.x + (point2 - point0).y * lineNormal.y;
@@ -66,17 +66,17 @@ int main() {
     // Create mirrored points
     DraggablePoint point2(sf::Vector2f(200, 300));
     DraggablePoint point3(reflectAcrossLine(point0.getPosition(), point1.getPosition(), point2.getPosition()));
-    
+
     DraggablePoint point4(sf::Vector2f(300, 400));
     DraggablePoint point5(reflectAcrossLine(point0.getPosition(), point1.getPosition(), point4.getPosition()));
-    
+
     DraggablePoint point6(sf::Vector2f(300, 200));
     DraggablePoint point7(reflectAcrossLine(point0.getPosition(), point1.getPosition(), point6.getPosition()));
 
     sf::VertexArray controlLines(sf::LineStrip, 2);
-    sf::VertexArray OGTrainagle(sf::Triangles, 4);
-    sf::VertexArray Reflected(sf::Triangles, 4);
-    
+    sf::VertexArray OGTrainagle(sf::LineStrip, 4);
+    sf::VertexArray Reflected(sf::Triangles, 3);
+
 
 
     while (window.isOpen()) {
@@ -95,6 +95,8 @@ int main() {
                 point2.beginDrag(sf::Mouse::getPosition(window));
                 point4.beginDrag(sf::Mouse::getPosition(window));
                 point6.beginDrag(sf::Mouse::getPosition(window));
+
+
             }
 
             if (event.type == sf::Event::MouseButtonReleased) {
@@ -127,10 +129,10 @@ int main() {
         OGTrainagle[3].position = point2.getPosition();
         OGTrainagle[1].position = point4.getPosition();
         OGTrainagle[2].position = point6.getPosition();
-      
+
 
         Reflected[0].position = point3.getPosition();
-        Reflected[3].position = point3.getPosition();
+       /* Reflected[3].position = point3.getPosition();*/
         Reflected[1].position = point5.getPosition();
         Reflected[2].position = point7.getPosition();
 
@@ -144,11 +146,11 @@ int main() {
         point0.draw(window);
         point1.draw(window);
         point2.draw(window);
-       /* point3.draw(window);*/
+        /* point3.draw(window);*/
         point4.draw(window);
-       /* point5.draw(window);*/
+        /* point5.draw(window);*/
         point6.draw(window);
-     /*   point7.draw(window);*/
+        /*   point7.draw(window);*/
 
         window.draw(controlLines);
         window.draw(OGTrainagle);
